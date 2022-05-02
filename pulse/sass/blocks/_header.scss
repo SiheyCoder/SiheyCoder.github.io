@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        width: 250px;
+        text-decoration: none;
+  display: inline-block;
+  padding: 10px 4px;
+  margin: 10px 0px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  
+  
+        img {
+            width: 100%;
+        }
+    }
+    &__oficial {
+        margin-top: 27px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        color: #fff;
+        text-align: center;
+        span {
+            display: block;
+            margin-top: 7px;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    &__contact {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+        
+    }
+}
