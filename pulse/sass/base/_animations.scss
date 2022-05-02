@@ -1,0 +1,40 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5); 
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes shoebeat {
+    from {
+        transform: translateX(-70%);
+        transition: 2s all;
+    }
+    
+    50% {
+        transform: translate(0%);
+        transform: rotate(30deg);
+    }
+    
+    to {
+        transform: translate(-70%);
+    }
+}
+
+@keyframes cupdown {
+    from {
+        transform: translateY(-50%);
+    }
+    50% {
+        transform: translateY(0%);
+        transform: rotateX(60deg);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
